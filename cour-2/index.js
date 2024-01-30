@@ -16,3 +16,4 @@ if (statut="etudiant"|| age==22) {
     console.log("OK")
 }else{console.log("NON")
 }
+// git
