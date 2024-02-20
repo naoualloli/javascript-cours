@@ -1,12 +1,12 @@
-console.log(Number("3.14"))         
-console.log(Number(" "))                
-console.log(Number(""))                
-console.log(Number("99 88"))                
-console.log(Number("dd106"))                
+console.log(Number("3.14"))             
+console.log(Number(" "))                //hadi kat3etina  0
+console.log(Number(""))                   //hadi kat3etina  0
+console.log(Number("99 88"))                // hadi kadire lina NaN hite kate3etabereha machi number
+console.log(Number("dd106"))                // hadi kadire lina NaN hite kate3etabereha machi number
 
 let d = 2025
 
-sd = String(d)                  
+sd = String(d)                  //hadi kathawele lina mne str le number mais mli kanmchiwe nchofo kanl9awe 2025 mais mli kandiro typeof 3ade kaybane lina type dyalo
 
 console.log(sd)
 
@@ -14,20 +14,20 @@ console.log(typeof(sd))
 
 let x = "5"
 
-let y = + x                
+let y = + x                 //hadi kandiroha bache nhawelo mne str le number
 
 console.log(typeof(y))
 
-console.log(String(100 + 23))           
+console.log(String(100 + 23))           //hadi kandiroha bache nhawelo mne number le str mais dik lresultat hiya li katweli str
 
 
 console.log(typeof(String(100 + 23)))
 
-console.log(String(100) + String(23))    
+console.log(String(100) + String(23))    //hadi hiya li katbeyene lina 10023
 
 let k = 1000
 
-sk = k.toString()              
+sk = k.toString()               //number --> str
 
 console.log(typeof(sk))
 
@@ -40,7 +40,7 @@ console.log("==>conversion des dates en nombres")
 let vD = new Date()
 
 
-console.log(vD)         
+console.log(vD)         //kadire lina tarikhe lyome
 
 
 
