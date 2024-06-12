@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style= "color:aliceblue; text-align: center;background-color: rgb(48, 125, 212);">GESTION DES STAGIAIRES</h1>
+        <div class="mb-3">
+            <label for="cin" class="form-lebel">CIN:</label>
+            <input type="text" class="form-control" id="CIN">
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-lebel">Name</label><br>
+            <input type="text" class="form-control" id="Name">
+        </div>
+        <div class="mb-3">
+            <label for="Last name" class="form-lebel">Last name:</label><br>
+            <input type="text" class="form-control" id="Last_name">
+        </div>
+        <div class="mb-3">
+            <label for="branch" class="form-label">Branch:</label><br>
+            <select name="branch" class="form-select" id="branch">
+
+        </select>
+        </div>
+        <div class="mb-3">
+            <label for="modul" class="form-label">Modul:</label><br>
+            <select name="modul" class="form-select" id="Modul">
+
+        </select>
+        </div>
+        <div class="mb-3">
+            <label for="Grade" class="form-lebel"></label>Grade<br>
+            <input type="text" class="form-control" id="Grade">
+        </div>
+        <div class="mb-3">
+            <button type="button" class="btn btn-info" id="btn-ajouter">Submit</button><button type="button" class="btn btn-success" id="btn-afficher">Afficher</button><button type="button" class="btn btn-primary" id="btn-vider">Reset</button><button type="button" class="btn btn-danger" id="btn-supprimer">Delete</button>
+
+        </div>
+        
+        <table id="Gestion" class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">CIN</th>
+                <th scope="col">Name</th>
+                <th scope="col">Last_name</th>
+                <th scope="col">Branch</th>
+                <th scope="col">Modul</th>
+                <th scope="col">Grade</th>
+              </tr>
+            </thead>
+            <tbody id="data">
+                
+            </tbody>
+          </table>
+          
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
