@@ -1,0 +1,17 @@
+.change_border_color{
+    outline: none;
+    border: solid 2px blue;
+
+}
+.error{
+    border: solid 2px red;
+    color: red;
+
+}
+.p{
+    display: none;
+}
+.error-error{
+    display: inline;
+    color: red;
+}
