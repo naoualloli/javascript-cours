@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="get"  id="SignUpForm" name="SignUpForm">
+        <label for="cin"> CODE/CNIE :</label> <br>
+        <input type="text" id="cin" name="cin" class="cin"><br><br>
+
+        <label for="nom">NOM :</label><br>
+        <input type="text" id="nom" name="nom" class="nom"><br><br>
+
+        <label for="prenom">PRENOM :</label><br>
+        <input type="text" id="prenom" name="prenom" class="prenom"><br><br>
+
+        <select name="branche" id="branche">
+            <option >BRANCHE</option>
+            <option value="DD" class="DD">DD</option>
+            <option value="RI" class="RI">RI</option>
+            <option value="PH" class="PH">PH</option>
+        </select><br><br>
+
+        <select name="modules" id="modules">
+            <option >MODULES</option>
+            <option value="ALGO" class="ALGO">ALGO</option>
+            <option value="HTML" class="HTML">HTML</option>
+            <option value="JS" class="JS">JS</option>
+        </select><br><br>
+
+        <label for="note">NOTE :</label><br>
+        <input type="number" id="note" name="note" class="note"><br><br>
+
+        <button class="ajouter">AJOUTER</button>
+        <button class="btn-2">ANNULER</button><br><br>
+        <div class="list">
+
+        </div>
+
+    
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

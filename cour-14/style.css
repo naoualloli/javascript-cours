@@ -1,0 +1,29 @@
+#SignUpForm{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(213, 176, 248);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black ;
+}
+button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px white ;
+
+}
+input{
+    box-shadow: 2px 2px 3px black;
+    border-radius: 8px;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 3px black ;
+
+
+}
