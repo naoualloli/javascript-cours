@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">     
+</head>
+<body>
+    <div class="container">
+       
+        <form action="" id="form">
+            <div class="mb-3">
+                <label>Search</label>
+                <input type="text" id=c" class="form-control">
+                <button id="btnSearch" class="btn btn-secondary">Search</button>
+            </div>
+            <div class="mb-3">
+                <label style="color: aliceblue;">code</label>
+                <input type="text" id="code" class="form-control">
+                <span class="span-error" id="span-nom"></span>
+
+            </div>
+            <div class="mb-3">
+                <label style="color: aliceblue;">PRENOM</label>
+                <input type="text" id="prenom" class="form-control">
+                <span class="span-error2" id="span-prenom"></span>
+            </div>
+            <div class="mb-3">
+                <label style="color: aliceblue;">nom</label>
+                <input type="text" id="nom" class="form-control">
+                <span class="span-error3" id="span-pwd"></span>
+            </div>
+            <div class="mb-3">
+                <label style="color: aliceblue;">groupe</label>
+                <input type="text" id="groupe" class="form-control">
+                <span class="span-error4" id="span-numero"></span>
+            </div>
+            <div class="mb-3">
+                <label style="color: aliceblue;">note</label>
+                <input type="number" id="note" class="form-control">
+                <span class="span-error5" id="span-code"></span>
+            </div>
+           
+            <button class="btn btn-outline-primary" id="enregistrer">enregistrer</button>
+        
+    
+    
+        </form>
+        <table id="table_stagaire" class="table  table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">NOM</th>
+                        <th scope="col">PRENOM</th>
+                        <th scope="col">PWD</th>
+                        <th scope="col">NUMERO</th>
+                        <th scope="col">CODE</th>
+                    </tr>
+                </thead>
+                <tbody id="data">
+    
+                </tbody>
+                <tfoot id="tdata">
+
+                </tfoot>
+            </table>
+        
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
